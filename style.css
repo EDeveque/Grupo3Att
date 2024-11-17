@@ -1,0 +1,91 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #947d4b;
+}
+
+header {
+    background-color: #180e04;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #3a2a12;
+}
+
+nav a {
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: #555555;
+}
+
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2 {
+    color: #000000;
+}
+
+h3 {
+    color: #000000;
+}
+
+.section-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.section-content img {
+    width: 100%;
+    max-width: 300px; /* Imagem com tamanho máximo */
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Centralizar imagens */
+}
+
+.section-content p {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #3a2a12;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    nav a {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .section-content {
+        padding: 15px;
+    }
+
+    .section-content img {
+        max-width: 100%; /* Ajustar a imagem ao tamanho da tela */
+    }
+}
